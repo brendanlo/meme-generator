@@ -1,0 +1,112 @@
+body {
+    margin:1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    background-color: rgba(211, 211, 211, 0.654);
+    width:100%;
+    padding:20px;
+}
+
+form {
+    padding:10px;
+    margin:1px;
+}
+
+.submit {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+button {
+    background-color: #4c9daf; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 1px 0px;
+}
+
+button:hover{
+    background-color: #257486;
+}
+
+input {
+    position:absolute;
+    left:150px;
+    width: 80%;
+}
+
+#memeHolder {
+    display:flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}   
+
+
+.container {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.imgHover {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 100px;
+    opacity: 0;
+    color: black;
+    transition: .4s ease;
+    font-weight: 900;
+    margin:0;
+    padding:0;
+}
+
+.container:hover .img{
+    opacity: .5;
+}
+
+.container:hover .imgHover{
+    opacity: 1;
+}
+
+.img {
+    position: relative;
+    height: 300px;
+    backface-visibility: hidden;
+    transition:.4s ease;
+}
+
+.memetext {
+    align-items: center;
+    position:absolute;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-weight:900;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+    margin: 0 auto;
+}
+
+.top {
+    top: 20px;
+}
+
+.bot {
+    bottom: 20px;
+}
+    
+

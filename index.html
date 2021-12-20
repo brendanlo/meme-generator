@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator || Brendan Lo</title>
+    <link rel='stylesheet' href = "app.css">
+</head>
+<body>
+    <section id = 'header'>
+        <h1> Meme Generator </h1>
+            <section id='explanation'> Fill out the form to create some memes </section><br>
+        <form id="testform"> 
+            Link to image:<input type="text" id="imgurl" name="imgurl" placeholder="URL of the image you'd like to meme" required><br>
+            Top text: <input type="text" id="toptext" name="toptext" placeholder="(optional) text that should show up at the top of the meme"><br>
+            Bottom text: <input type="text" id="bottext" name="bottext" placeholder="(optional) text that should show up at the bottom of the meme"><br><br>
+            <button type="submit" id="submit">Create meme</button><br>
+            <button type='reset' id = 'reset'>Reset form</button><br>
+        </form>
+    </section>
+    
+    <section id = "memeHolder"></section>
+
+    <script src="app.js"></script>
+</body>
+</html>
