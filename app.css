@@ -1,16 +1,26 @@
 body {
     margin:1px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    color: white;
 }
+
+#testform div {
+    margin-bottom: 5px;
+    font-size: smaller;
+}
+
+
 
 #header {
     background-color: rgba(211, 211, 211, 0.654);
     width:100%;
     padding:20px;
+    background: linear-gradient(#3958d5, #39de9c)
 }
 
 form {
-    padding:10px;
+    padding:30px;
     margin:1px;
 }
 
@@ -21,26 +31,32 @@ form {
 }
 
 button {
-    background-color: #4c9daf; /* Green */
+    background-color: #3958d5; /* Green */
     border: none;
     color: white;
     padding: 5px 10px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 10px;
     margin: 1px 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
 }
 
 button:hover{
-    background-color: #257486;
+    background-color: #2542b4;
 }
 
 input {
     position:absolute;
     left:150px;
     width: 80%;
+    border-radius: 5px;
+    border-width: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+
 }
 
 #memeHolder {
